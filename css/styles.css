@@ -1,0 +1,24 @@
+@charset "utf-8";
+.logo {
+	text-align: center;
+}
+.text {
+	text-align: center;
+}
+body { /* Body Colour */
+	background-color: #FFDF9F;
+}
+
+::selection {
+  background: #FFAA36; /* Text Selector Colours */
+}
+::-moz-selection {
+  background: #FFAA36; 
+} 
+.images {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.nav-link {
+	color: #5AB37F;
+}

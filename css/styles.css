@@ -6,7 +6,8 @@
 	text-align: center;
 }
 body { /* Body Colour */
-	background-color: #FFDF9F;
+    background-color: #485058;
+    color: #C4C4C4;
 }
 
 ::selection {
@@ -19,6 +20,6 @@ body { /* Body Colour */
 	text-align: center;
 	margin-bottom: 10px;
 }
-.nav-link {
-	color: #5AB37F;
+.break {
+    height: 40px
 }

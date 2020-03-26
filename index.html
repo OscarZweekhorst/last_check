@@ -13,34 +13,52 @@
     <title>My Website</title>
   </head>
   <body>
-	<div class="container-fluid"> <!-- Container Start -->
-  		<div class="row"> <!-- Row Start -->
-			
-			<figure class="logo col-12 col-lg-2">
-				<img src="./images/adme_logo.png" alt="Logo" height="50px"/>
-			</figure>
-			<nav class="col-12 col-lg-10"> <!-- nav start -->
-			<ul class="nav">
-				<li class="nav-item">
-					<a class="nav-link disabled">Home</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="index.html"><img class="class" src="./images/buas_logo.jpg" alt="Logo" height="50px"/></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
 				</li>
 			</ul>
-			</nav>
-			<header class="text col-12">
-      			<h1>Home</h1>
-    		</header>		
+		</div>
+	</nav>
+	<div class="container-fluid"> <!-- Container Start -->
+  		<div class="row"> <!-- Row Start -->
+            <div class="break col-12"></div>
+            <div class="break col-12"></div>
+			<div class="text col-12">
+                <header>
+      			    <h1>Home</h1>
+                </header>    
+    		</div>		
 			<!-- Images -->
-			<figure class="images col-12 col-md-6 col-lg-4"><img src="./images/woman.jpg" alt="image of woman" width="500" height="700"/></figure>
-			<figure class="images col-12 col-md-6 col-lg-4"><img src="./images/boat.jpg" alt="image of boat" width="500" height="700"/></figure>		
-			<figure class="images col-12 col-lg-4"><img src="./images/hatwoman.jpg" alt="image of woman with hat" width="500" height="700"/></figure>
+			<div class="images col-12 col-md-6 col-lg-4">
+                <figure>
+                <img src="./images/csgo1.jpg" alt="Zetterstrand Painting" width="500" height="700"/>
+                </figure>
+            </div>
+			<div class="images col-12 col-md-6 col-lg-4">
+                <figure>
+                    <img src="./images/guy.jpg" alt="Zetterstrand Painting" width="500" height="700"/>
+                </figure>        
+            </div>		
+			<div class="images col-12 col-lg-4">
+                <figure>
+                    <img src="./images/csgo2.png" alt="Zetterstrand Painting" width="500" height="700"/>
+                </figure>
+            </div>
   		
 		</div> <!-- Row End -->
 	</div> <!-- Container Ends -->
 	<!-- JS links -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
